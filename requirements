@@ -1,0 +1,4 @@
+flask[all]
+SQLAlchemy
+Flask-Login
+numpy

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+    <div class="text-center">
+        <h1 class="display-4 mb-4">Welcome to My Flask App</h1>
+        <p class="lead mb-4">This is the home page. Feel free to explore the app and check out the registration and login pages.</p>
+        <a class="btn btn-primary btn-lg" href="{{ url_for('register') }}">Get Started</a>
+    </div>
+{% endblock %}
